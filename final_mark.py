@@ -34,7 +34,7 @@ def percentages():
     print(f"You need {mark_a_minus}% on the final exam for an A-")
 
     if not pass_grade <= 0:
-        print(f"You need {pass_grade}% on the final exam for an A-")
+        print(f"You need {pass_grade}% on the final exam to pass")
 
     return {
         "A+": mark_needed,
